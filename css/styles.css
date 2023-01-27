@@ -202,6 +202,21 @@ padding-bottom: 120px;
   padding-bottom: 120px;
 }
 
+.benefits-list-icon {
+  display: flex;
+  gap: 24px;
+}
+
+.benefits-item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  width: 264px;
+  background: #f4f4fd;
+  border-radius: 4px;
+}
+
 .benefits-heading {
   font-weight: 600;
   font-size: 20px;
@@ -209,6 +224,7 @@ padding-bottom: 120px;
   letter-spacing: 0.02em;
   color: var(--benefits-title-color);
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .benefits-list {
@@ -221,6 +237,8 @@ padding-bottom: 120px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  height: 112px;
+  width: 264px;
 }
 
 /* --------------JOB------------- */
@@ -341,6 +359,41 @@ padding-bottom: 120px;
 .customers {
   padding-top: 130px;
   padding-bottom: 120px;
+}
+
+.customers-title {
+  margin-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customer-item {
+  width: 168px;
+  height: 88px;
+}
+
+.customer-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-link:focus,
+.customer-link:hover {
+  border-color: #404bbf;
+}
+
+.customer-link:focus .customer-icon,
+.customer-link:hover .customer-icon {
+  border-color: #404bbf;
 }
 
 /* --------------FOOTER------------- */
