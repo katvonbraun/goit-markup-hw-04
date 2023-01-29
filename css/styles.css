@@ -386,6 +386,10 @@ padding-bottom: 120px;
   align-items: center;
 }
 
+.customer-icon {
+  fill: #8e8f99;
+}
+
 .customer-link:focus,
 .customer-link:hover {
   border-color: #404bbf;
@@ -394,6 +398,7 @@ padding-bottom: 120px;
 .customer-link:focus .customer-icon,
 .customer-link:hover .customer-icon {
   border-color: #404bbf;
+  fill: #404bbf;
 }
 
 /* --------------FOOTER------------- */
@@ -434,7 +439,7 @@ padding-bottom: 120px;
 .footer-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer-item {
